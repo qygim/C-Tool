@@ -129,6 +129,26 @@ namespace WindowsFormsApp2
 			{
 				StickerList[Index].Picture.Left = StickerList[Index].Picture.Left + (M.X - this.CurrentMousePos.X);
 				StickerList[Index].Picture.Top = StickerList[Index].Picture.Top + (M.Y - this.CurrentMousePos.Y);
+
+				if(StickerList[Index].Picture.Left<pictureBox1.Left)
+				{
+					StickerList[Index].Picture.Left = pictureBox1.Left;
+				}
+
+				if(StickerList[Index].Picture.Left+ StickerList[Index].Picture.Width > pictureBox1.Left+ pictureBox1.Width)
+				{
+					StickerList[Index].Picture.Left = pictureBox1.Width-StickerList[Index].Picture.Width;
+				}
+
+				if(StickerList[Index].Picture.Top<pictureBox1.Top)
+				{
+					StickerList[Index].Picture.Top = pictureBox1.Top;
+				}
+
+				if(StickerList[Index].Picture.Top+StickerList[Index].Picture.Height>pictureBox1.Top+pictureBox1.Height)
+				{
+					StickerList[Index].Picture.Top = pictureBox1.Height-StickerList[Index].Picture.Height;
+				}
 			}
 		}
 
@@ -154,6 +174,7 @@ namespace WindowsFormsApp2
 
 		private void Save_MouseDonw(object sender, MouseEventArgs e)
 		{
+			WriteCheck(sender, e);
 			VisibleFalse();
 		}
 
@@ -186,6 +207,36 @@ namespace WindowsFormsApp2
 			{
 				VisibleTrue();
 			}
+		}
+
+		private void WriteCheck(object sender,EventArgs e)
+		{
+			//8,9,10,11,18
+			if (!NickNameWrite.Visible)
+			{
+				pictureBox8_Click(sender, e);
+			}
+
+			if (!GuildWrite.Visible)
+			{
+				pictureBox9_Click(sender, e);
+			}
+
+			if (!JobWrite.Visible)
+			{
+				pictureBox10_Click(sender, e);
+			}
+
+			if (!ServerWrite.Visible)
+			{
+				pictureBox11_Click(sender, e);
+			}
+
+			if (!EtcWrite.Visible)
+			{
+				pictureBox18_Click(sender, e);
+			}
+
 		}
 
 		private void VisibleFalse()
