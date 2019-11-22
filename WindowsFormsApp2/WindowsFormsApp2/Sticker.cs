@@ -44,6 +44,19 @@ public class Sticker : Control
 		Picture.BackColor = Color.Transparent;
 	}
 
+	public Sticker(Bitmap B)
+	{
+		PictureImage = new PictureBox();
+		Picture.Left = 650;
+		Picture.Top = 40;
+		Picture.Width = 10;
+		Picture.Height = 10;
+		Picture.SizeMode = PictureBoxSizeMode.AutoSize;
+
+		Picture.Image = (Image)B;
+		Picture.BackColor = Color.Transparent;
+	}
+
 	public bool IsSeleted(Point P)
 	{
 		if (P.X>=Picture.Left && P.X<=Picture.Left+Picture.Width)

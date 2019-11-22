@@ -397,14 +397,60 @@ namespace WindowsFormsApp2
 
 			if (Decorate.SelectedIndex != 0)
 			{
-				string Path = ImagePath(Decorate.SelectedIndex);
-				Sticker New = new Sticker(Path);
+				//string Path = ImagePath(Decorate.SelectedIndex);
+				//Sticker New = new Sticker(Path);
+				Bitmap Image = ImageResouce(Decorate.SelectedIndex);
+				Sticker New = new Sticker(Image);
 				New.Picture.MouseDown += StickerMouseDown;
 				New.Picture.MouseMove += StickerMove;
 				this.Controls.Add(New.Picture);
 				New.Picture.BringToFront();
 				StickerList.Add(New);
 			}
+		}
+
+		private Bitmap ImageResouce(int SelectedIndex)
+		{
+			switch (SelectedIndex)
+			{
+				case 1:
+					return WindowsFormsApp2.Properties.Resources.emote_alert;
+
+				case 2:
+					return WindowsFormsApp2.Properties.Resources.emote_cross;
+
+				case 3:
+					return WindowsFormsApp2.Properties.Resources.emote_exclamation;
+
+				case 4:
+					return WindowsFormsApp2.Properties.Resources.emote_exclamations;
+
+				case 5:
+					return WindowsFormsApp2.Properties.Resources.emote_faceAngry;
+
+				case 6:
+					return WindowsFormsApp2.Properties.Resources.emote_faceHappy;
+
+				case 7:
+					return WindowsFormsApp2.Properties.Resources.emote_faceSad;
+
+				case 8:
+					return WindowsFormsApp2.Properties.Resources.emote_heart;
+
+				case 9:
+					return WindowsFormsApp2.Properties.Resources.emote_heartBroken;
+
+				case 10:
+					return WindowsFormsApp2.Properties.Resources.emote_question;
+
+				case 11:
+					return WindowsFormsApp2.Properties.Resources.emote_sleeps;
+
+				case 12:
+					return WindowsFormsApp2.Properties.Resources.emote_star;
+			}
+
+			return null;
 		}
 
 		private string ImagePath(int SeletedIndex)

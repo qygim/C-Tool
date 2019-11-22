@@ -38,3 +38,13 @@ C:\Users\qygim\Documents\C-Tool\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\Wind
 C:\Users\qygim\Documents\C-Tool\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
 C:\Users\qygim\Documents\C-Tool\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
 C:\Users\qygim\Documents\C-Tool\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\ATENTS\Documents\GitHub\C-Tool\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\ATENTS\Documents\GitHub\C-Tool\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\ATENTS\Documents\GitHub\C-Tool\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\ATENTS\Documents\GitHub\C-Tool\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csprojAssemblyReference.cache
+C:\Users\ATENTS\Documents\GitHub\C-Tool\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+C:\Users\ATENTS\Documents\GitHub\C-Tool\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\ATENTS\Documents\GitHub\C-Tool\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+C:\Users\ATENTS\Documents\GitHub\C-Tool\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+C:\Users\ATENTS\Documents\GitHub\C-Tool\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\ATENTS\Documents\GitHub\C-Tool\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
